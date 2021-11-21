@@ -4,6 +4,15 @@
 ## escape(text: string)
     Метод escape удаляет табы, перносы строк
 
+## fetchHTML(url)
+    Функция выдает текст по url
+
+## fetchImage(url, src)
+    Функция загружает картинку url и сохраняет src
+
+## parseHTML(url, shema)
+    Функция парсит станицу url по правилам shema (см. parse)
+
 ## parse(text: string, shema: object)
     Метод переводит text в object по правилам описаными в shema
 

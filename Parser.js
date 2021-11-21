@@ -106,6 +106,11 @@ function escape(html) {
     return html.replace(/\t/g, '').replace(/\r/g, '').replace(/\n/g, '');
 }
 
+async function parseHTML(url, shema) {
+    const html = fetchHTML(url);
+    return parse(escape(html), shema);
+}
+
 module.exports = {
     findOne,
     findAll,
@@ -113,4 +118,5 @@ module.exports = {
     fetchHTML,
     escape,
     fetchImage,
+    parseHTML,
 }
