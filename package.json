@@ -1,0 +1,24 @@
+{
+  "name": "parserdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Parser.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jullivasx/ParserData.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jullivasx/ParserData/issues"
+  },
+  "homepage": "https://github.com/Jullivasx/ParserData#readme",
+  "dependencies": {
+    "jest": "^27.3.1",
+    "node-fetch": "^2.6.6"
+  }
+}
